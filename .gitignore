@@ -1,0 +1,8 @@
+node_modules/
+selenium-debug/
+drivers/
+*.log
+ssh.exe.stackdump
+reports/
+.DS_Store
+package-lock.json
