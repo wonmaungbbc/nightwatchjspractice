@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nightwatch JS practice</title>
+</head>
+
+<body>
+    <h1>Nightwatch JS practice</h1>
+
+    <p>
+        Using XPath selectors
+        Nightwatch supports xpath selectors also. To switch to xpath instead of css selectors as the locate strategy,
+        in your test call the method useXpath(), as seen in the example below. To switch back to CSS, call useCss().
+        To always use xpath by default set the property "use_xpath": true in your test settings.
+    </p>
+
+    <p>
+        this.demoTestGoogle = function (browser) {
+        browser
+        .useXpath() // every selector now must be xpath
+        .click("//tr[@data-recordid]/span[text()='Search Text']")
+        .useCss() // we're back to CSS now
+        .setValue('input[type=text]', 'nightwatch')
+        };
+
+    </p>
+
+    <p>
+
+        Run ```node nightwatch```
+
+        <a href="http://medium.freecodecamp.org/how-to-easily-start-automatically-testing-your-website-8629ea8df04a">Read</a>
+    </p>
+</body>
+
+</html>
