@@ -5,9 +5,9 @@
 
   <testsuite name="bing.test"
     errors="0" failures="0" hostname="" id="" package="bing.test" skipped="0"
-    tests="1" time="0.6080" timestamp="">
+    tests="1" time="0.9580" timestamp="">
   
-    <testcase name="Title is Bing" classname="bing.test" time="0.6080" assertions="2">
+    <testcase name="Title is Bing" classname="bing.test" time="0.9580" assertions="2">
 
     
 
