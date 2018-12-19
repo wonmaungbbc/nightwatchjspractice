@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="apiExpect.test"
+    errors="0" failures="1" hostname="" id="" package="apiExpect.test" skipped="0"
+    tests="1" time="5.139" timestamp="">
+  
+    <testcase name="demoTest" classname="apiExpect.test" time="5.139" assertions="1">  <failure message="Expected element &lt;#main&gt; to be present - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at Object.demoTest.browser [as demoTest] (/Users/theinw01/Desktop/nightwatchjspractice/tests/apiExpect.test.js:4:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.demoTest.browser [as demoTest] (/Users/theinw01/Desktop/nightwatchjspractice/tests/apiExpect.test.js:4:20)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
