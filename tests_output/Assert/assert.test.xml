@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="disableTest.disable.test"
-    errors="0" failures="0" hostname="" id="" package="disableTest" skipped="1"
+  <testsuite name="Assert.assert.test"
+    errors="0" failures="0" hostname="" id="" package="Assert" skipped="1"
     tests="0" time="0" timestamp="">
   
 
@@ -18,7 +18,7 @@
   
     
     <testcase
-      name="sample test to disable" classname="disableTest.disable.test">
+      name="There must be a function" classname="Assert.assert.test">
       <skipped />
     </testcase>
     
