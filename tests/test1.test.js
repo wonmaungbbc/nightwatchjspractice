@@ -18,7 +18,7 @@ this.demoTestGoogle =  (browser)=> {
       browser
       .url('http://www.google.com')
       .waitForElementVisible('body', 1000)
-      .setValue('input[type=text]', 'Won Maung Thein is Awesome')
+      .setValue('input[type=text]', ['Won Maung Thein is Awesome',browser.keys.ENTER])
       .end();
   };
 
